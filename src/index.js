@@ -23,32 +23,32 @@ import "assets/vendor/nucleo/css/nucleo.css";
 import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
-import Index from "views/Index.js";
+// * Importing rebranded-template's index page
+import Home from "views/Home.js";
+// * Importing rebranded-template's landing page
 import Landing from "views/examples/Landing.js";
-import Login from "views/examples/Login.js";
-import Profile from "views/examples/Profile.js";
-import Register from "views/examples/Register.js";
+// * Commented out below imports for original Argon pages (moved to "views/deprecated")
+// import Index from "views/Index.js";
+// import Login from "views/examples/Login.js";
+// import Landing from "views/examples/Landing-Original.js";
+// import Profile from "views/examples/Profile.js";
+// import Register from "views/examples/Register.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path="/" exact render={props => <Index {...props} />} />
+      <Route path="/" exact render={(props) => <Home {...props} />} />
       <Route
         path="/landing-page"
         exact
-        render={props => <Landing {...props} />}
+        render={(props) => <Landing {...props} />}
       />
-      <Route path="/login-page" exact render={props => <Login {...props} />} />
-      <Route
-        path="/profile-page"
-        exact
-        render={props => <Profile {...props} />}
-      />
-      <Route
-        path="/register-page"
-        exact
-        render={props => <Register {...props} />}
-      />
+      {
+        // * deprecated routes
+        // <Route path="/login-page" exact render={(props) => <Login {...props} />} />
+        // <Route path="/profile-page" exact render={(props) => <Profile {...props} />} />
+        // <Route path="/register-page" exact render={(props) => <Register {...props} />}/>
+      }
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,
