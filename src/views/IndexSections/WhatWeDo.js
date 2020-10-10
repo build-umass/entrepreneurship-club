@@ -5,13 +5,13 @@ import { Container, Row, Col } from "reactstrap";
 class WhatWeDo extends React.Component {
   render() {
     return (
-      <Container>
-        <Row className="justify-content-center">
+      <Container className="section">
+        <Row className="text-center">
           <Col lg="12">
-            <h2 className="mb-5">
-              <span className="text-primary font-weight-light">What We Do</span>
+            <h2 className="mb-3">
+              <span className="text-primary display-3">What We Do</span>
             </h2>
-            <p className="text-tertiary font-weight-light">
+            <p className="lead text-muted">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris

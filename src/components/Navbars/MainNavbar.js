@@ -37,7 +37,7 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
-class RebrandedNavbar extends React.Component {
+class MainNavbar extends React.Component {
   componentDidMount() {
     let headroom = new Headroom(document.getElementById("navbar-main"));
     // initialise
@@ -114,8 +114,8 @@ class RebrandedNavbar extends React.Component {
                       <DropdownItem to="/" tag={Link}>
                         Home
                       </DropdownItem>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        Argon Design
+                      <DropdownItem to="/base-template" tag={Link}>
+                        Base Template
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
@@ -179,4 +179,4 @@ class RebrandedNavbar extends React.Component {
   }
 }
 
-export default RebrandedNavbar;
+export default MainNavbar;

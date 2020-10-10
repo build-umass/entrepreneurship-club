@@ -22,12 +22,12 @@
     "argon-design-system-react",
     "design-system-react"
   ],
-  "author": "Creative Tim",
+  "author": "BUILD UMass",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/argon-design-system-react/issues"
+    "url": "https://github.com/build-umass/entrepreneurship-club/issues"
   },
-  "homepage": "https://demos.creative-tim.com/argon-design-system-react/",
+  "homepage": "https://github.com/build-umass/entrepreneurship-club",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && gulp licenses",

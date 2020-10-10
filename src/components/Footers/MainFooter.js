@@ -32,45 +32,45 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
-class RebrandedCardsFooter extends React.Component {
+class MainFooter extends React.Component {
   render() {
     return (
       <>
         <footer className="footer has-cards">
-          <Container className="container-lg">
-            {
-              // * remove cards displaying Argon System
-              //   <Row>
-              //   <Col className="mb-5 mb-md-0" md="6">
-              //     <Card className="card-lift--hover shadow border-0">
-              //       <Link to="/landing-page">
-              //         <CardImg
-              //           alt="..."
-              //           src={require("assets/img/theme/landing.jpg")}
-              //         />
-              //       </Link>
-              //     </Card>
-              //   </Col>
-              //   <Col className="mb-5 mb-lg-0" md="6">
-              //     <Card className="card-lift--hover shadow border-0">
-              //       <Link to="/profile-page">
-              //         <CardImg
-              //           alt="..."
-              //           src={require("assets/img/theme/profile.jpg")}
-              //         />
-              //       </Link>
-              //     </Card>
-              //   </Col>
-              // </Row>
-            }
-          </Container>
+          {
+            // * remove cards displaying Argon System
+            // </footer><Container className="container-lg">
+            //   <Row>
+            //   <Col className="mb-5 mb-md-0" md="6">
+            //     <Card className="card-lift--hover shadow border-0">
+            //       <Link to="/landing-page">
+            //         <CardImg
+            //           alt="..."
+            //           src={require("assets/img/theme/landing.jpg")}
+            //         />
+            //       </Link>
+            //     </Card>
+            //   </Col>
+            //   <Col className="mb-5 mb-lg-0" md="6">
+            //     <Card className="card-lift--hover shadow border-0">
+            //       <Link to="/profile-page">
+            //         <CardImg
+            //           alt="..."
+            //           src={require("assets/img/theme/profile.jpg")}
+            //         />
+            //       </Link>
+            //     </Card>
+            //   </Col>
+            // </Row>
+            // </Container>
+          }
           <Container>
             <Row className="row-grid align-items-center my-md">
               <Col lg="6">
                 <h3 className="text-primary font-weight-light mb-2">
                   Thank you for your interest in us!
                 </h3>
-                <h4 className="mb-0 font-weight-light">
+                <h4 className="text-muted mb-0 font-weight-light">
                   Contact us on any of these platforms.
                 </h4>
               </Col>
@@ -146,4 +146,4 @@ class RebrandedCardsFooter extends React.Component {
   }
 }
 
-export default RebrandedCardsFooter;
+export default MainFooter;
