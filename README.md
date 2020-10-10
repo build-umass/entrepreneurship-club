@@ -5,7 +5,9 @@
 [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/build-umass/entrepreneurship-club.svg?maxAge=2592000)](https://github.com/build-umass/entrepreneurship-club/issues?q=is%3Aissue+is%3Aclosed) 
 
 ## Views
-![Current Homepage](https://raw.githubusercontent.com/build-umass/entrepreneurship-club/rebranded-template/src/assets/img/theme/Home_Page.png)
+#### Home (Landing Page)
+![Current Homepage](https://raw.githubusercontent.com/build-umass/entrepreneurship-club/dev/src/assets/img/theme/Home.png)
 ---
-![Argon Design System](https://raw.githubusercontent.com/build-umass/entrepreneurship-club/rebranded-template/src/assets/img/theme/Argon_Page.png)
+#### Base Template
+![Base Template](https://raw.githubusercontent.com/build-umass/entrepreneurship-club/dev/src/assets/img/theme/Base-Template.png)
 ---
