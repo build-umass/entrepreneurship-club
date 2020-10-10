@@ -26,6 +26,7 @@ import RebrandedCardsFooter from "components/Footers/RebrandedCardsFooter.js";
 
 // * index page sections : Hero ONLY
 import Hero from "./IndexSections/Hero.js";
+import WhatWeDo from "./IndexSections/WhatWeDo.js";
 // import Buttons from "./IndexSections/Buttons.js";
 // import Inputs from "./IndexSections/Inputs.js";
 // import CustomControls from "./IndexSections/CustomControls.js";
@@ -58,6 +59,7 @@ class Home extends React.Component {
         <RebrandedNavbar />
         <main ref="main">
           <Hero />
+          <WhatWeDo />
           {
             // * remove non-essential components from the home page
             // <Buttons />
