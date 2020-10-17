@@ -1,6 +1,7 @@
 import React from "react";
-import WhatWeDoCard from 'WhatWeDoCard.js';
+import WhatWeDoCard from "./WhatWeDoCard";
 import {Container, Row, Col } from "reactstrap";
+import './WhatWeDo.css';
 
 class WhatWeDo extends React.Component{
     render(){
@@ -10,7 +11,7 @@ class WhatWeDo extends React.Component{
                     <Col lg="12">
                         <h2 className="mb-5">
                             <span>What We Do</span>
-                            <WhatWeDoCard />
+                            <hr className="divider"/>
                             <div>
                                 <h3>Weekly Meetings</h3>
                                 <p>Our meetings are a way of forming a strong community of tenacious learners and doers.</p>   
@@ -32,6 +33,8 @@ class WhatWeDo extends React.Component{
                                 <p>The UMass Network of Entrepreneurs is a support, accountability, and problem solving group designed for ventures who are ready to progress to the next level.</p> 
                             </div>
                         </h2>
+                        <hr className="divider"/>
+                        <WhatWeDoCard />
                     </Col>
                 </Row>
             </Container>
