@@ -9,7 +9,7 @@
 ![Current Homepage](https://github.com/build-umass/entrepreneurship-club/blob/programs-and-events/src/assets/img/theme/Home2.png)
 ---
 #### Programs and Events Page
-![Current Homepage](https://raw.githubusercontent.com/build-umass/entrepreneurship-club/dev/src/assets/img/theme/Programs.png)
+![Current Homepage](https://github.com/build-umass/entrepreneurship-club/blob/programs-and-events/src/assets/img/theme/Programs.png)
 ---
 #### Base Template
 ![Base Template](https://raw.githubusercontent.com/build-umass/entrepreneurship-club/dev/src/assets/img/theme/Base-Template.png)
