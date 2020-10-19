@@ -6,7 +6,10 @@
 
 ## Views
 #### Home (Landing Page)
-![Current Homepage](https://raw.githubusercontent.com/build-umass/entrepreneurship-club/dev/src/assets/img/theme/Home.png)
+![Current Homepage](https://raw.githubusercontent.com/build-umass/entrepreneurship-club/dev/src/assets/img/theme/Home2.png)
+---
+#### Programs and Events Page
+![Current Homepage](https://raw.githubusercontent.com/build-umass/entrepreneurship-club/dev/src/assets/img/theme/Programs.png)
 ---
 #### Base Template
 ![Base Template](https://raw.githubusercontent.com/build-umass/entrepreneurship-club/dev/src/assets/img/theme/Base-Template.png)
