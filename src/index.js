@@ -25,6 +25,7 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import BaseTemplate from "views/examples/BaseTemplate.js";
 import Landing from "views/Landing.js";
+import ProgramsEvents from "views/examples/ProgramsEvents";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -34,6 +35,11 @@ ReactDOM.render(
         path="/base-template"
         exact
         render={(props) => <BaseTemplate {...props} />}
+      />
+      <Route
+        path="/programs-events"
+        exact
+        render={(props) => <ProgramsEvents {...props} />}
       />
       <Redirect to="/" />
     </Switch>

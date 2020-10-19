@@ -119,6 +119,12 @@ class MainNavbar extends React.Component {
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
+                  <UncontrolledDropdown nav>
+                    <DropdownToggle nav to = "/programs-events" tag= {Link}>
+                      <i className="ni ni-collection d-lg-none mr-1" />
+                      <span className="nav-link-inner--text">Programs and events</span>
+                    </DropdownToggle>
+                  </UncontrolledDropdown>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>
