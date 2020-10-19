@@ -122,7 +122,7 @@ class MainNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav to = "/programs-events" tag= {Link}>
                       <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Programs and events</span>
+                      <span className="nav-link-inner--text">Programs</span>
                     </DropdownToggle>
                   </UncontrolledDropdown>
                 </Nav>
