@@ -114,11 +114,15 @@ class MainNavbar extends React.Component {
                       <DropdownItem to="/" tag={Link}>
                         Home
                       </DropdownItem>
-                      <DropdownItem to="/base-template" tag={Link}>
+                      <DropdownItem to="/base-template/" tag={Link}>
                         Base Template
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
+                  <NavLink to="/about/" tag={Link}>
+                    <i className="ni ni-collection d-lg-none mr-1" />
+                    <span className="nav-link-inner--text">About</span>
+                  </NavLink>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>

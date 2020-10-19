@@ -25,13 +25,15 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import BaseTemplate from "views/examples/BaseTemplate.js";
 import Landing from "views/Landing.js";
+import About from "views/About.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" exact render={(props) => <Landing {...props} />} />
+      <Route path="/about/" exact render={(props) => <About {...props} />} />
       <Route
-        path="/base-template"
+        path="/base-template/"
         exact
         render={(props) => <BaseTemplate {...props} />}
       />
