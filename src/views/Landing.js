@@ -37,20 +37,21 @@ class Landing extends React.Component {
           <Hero />
           <WhatWeDo />
       <Container className="section">
-        <Row className="text-center">
+      <Row className= "text-center">
           <Col lg="12">
-            <h2 className="mb-3">
-              <span className="text-primary display-3">Get Involved</span>
-            </h2>
-                  <div className="px-4">
-                  <a href="https://umassentrepreneurship.slack.com/">
+                  <span>
+                  <h2 className="mb-3">
+                  <span className="text-primary display-3">Get Involved   </span>
+                  <a href="https://umassentrepreneurship.slack.com/join/shared_invite/zt-ib3chf6b-AZ5Lg1rEDz~GxVo~Agr2eQ#/">
                   <img
                       alt="..."
-                      className="squared-circle img-center img-fluid shadow shadow-lg--hover"
-                      src={require("assets/img/brand/Entrepreneurship-Icon-White-BG.png")}
-                      style={{ width: "200px" }}
+                      className="squared-circle img img-fluid shadow shadow-lg--hover mr-5"
+                      src={require("assets/img/icons/slackLogo.jpg")}
+                      style={{ width: "100px" }}
                     />
                     </a>
+                    </h2>
+                    </span>
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-0 text-primary">
@@ -58,9 +59,10 @@ class Landing extends React.Component {
                         </span>
                       </h5>
                     </div>
-                  </div>
+                   
           </Col>
-        </Row>
+          </Row>
+        
       </Container>
           <section className="section bg-secondary">
             <Container>
