@@ -25,11 +25,9 @@ import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import BaseTemplate from "views/examples/BaseTemplate.js";
 import Landing from "views/Landing.js";
-<<<<<<< Updated upstream
-=======
 import About from "views/About.js";
 import ProgramsEvents from "views/examples/ProgramsEvents";
->>>>>>> Stashed changes
+
 
 ReactDOM.render(
   <BrowserRouter>
@@ -40,8 +38,7 @@ ReactDOM.render(
         exact
         render={(props) => <BaseTemplate {...props} />}
       />
-<<<<<<< Updated upstream
-=======
+
       <Route
         path="/programs-events"
         exact
@@ -52,7 +49,6 @@ ReactDOM.render(
         exact
         render={(props) => <About {...props} />}
       />
->>>>>>> Stashed changes
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,

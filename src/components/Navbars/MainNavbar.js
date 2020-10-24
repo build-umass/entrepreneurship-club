@@ -119,8 +119,7 @@ class MainNavbar extends React.Component {
                       </DropdownItem>
                     </DropdownMenu>
                   </UncontrolledDropdown>
-<<<<<<< Updated upstream
-=======
+
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav to = "/about" tag= {Link}>
                       <i className="ni ni-collection d-lg-none mr-1" />
@@ -134,7 +133,6 @@ class MainNavbar extends React.Component {
                     </DropdownToggle>
                   </UncontrolledDropdown>
                   
->>>>>>> Stashed changes
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>
