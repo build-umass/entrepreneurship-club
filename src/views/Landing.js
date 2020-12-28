@@ -296,23 +296,30 @@ class Landing extends React.Component {
             <h2 className="mb-3">
               <span className="text-primary display-3">Get Involved</span>
             </h2>
-                  <div className="px-4">
+                <div className="px-4">
+                  <Row>
+                    <Col>
                   <a href="https://umassentrepreneurship.slack.com/">
                   <img
                       alt="..."
                       className="squared-circle img-center img-fluid shadow shadow-lg--hover"
                       src={require("assets/img/brand/Entrepreneurship-Icon-White-BG.png")}
-                      style={{ width: "200px" }}
+                      style={{ width: "100px" }}
                     />
                     </a>
+                    {/* </Col>
+                    <Col> */}
                     <div className="pt-4 text-center">
                       <h5 className="title">
                         <span className="d-block mb-0 text-primary">
-                        <small className="h6 text-muted">Click to join our slack</small>
+                        <small className="h6 text-muted" style = {{fontSize: 20}}>Click to join our slack</small>
                         </span>
                       </h5>
                     </div>
+                    </Col>
+                    </Row>
                   </div>
+                  
           </Col>
         </Row>
       </Container>

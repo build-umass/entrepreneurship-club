@@ -73,55 +73,136 @@ class ProgramsEvents extends React.Component {
           </section>
         </div>
         <Container className="section">
-        <Row className="text-center">
-          <Col lg="12">
-            <h2 className="mb-3">
-              {/* <span className="text-primary display-3">Programs and Events</span> */}
+            <h2 className="mb-3 text-center">
+              <span className="text-primary display-3">Weekly Meeting</span>
             </h2>
-            <p className="text-primary display-3" style ={{fontSize: 25}}>
-            Weekly Meetings
-            </p>
-            <p className="lead text-muted" style={{marginLeft: 250}}>
-            Our meetings are our way of forming a strong community of tenacious learners and doers. 
-            We bring in prestigious speakers, troubleshoot ideas, network, learn, and have a lot of fun. 
-            Join us every Tuesday at 6pm!
-            </p>
-            <p className="text-primary display-3" style ={{fontSize: 25}}>
-            ULaunch
-            </p>
-            <p className="lead text-muted" style={{marginRight: 250}}>
-            Starting a business is hard… or is it? Join us and see how easy it can be to launch a venture in just one weekend. ULaunch is a 2-day event in which individuals form teams, build a business, and compete for $1,000 in funding. We host speakers, workshops, mentors, and some ambitious individuals just like you. No experience necessary! Come with an idea or just the will to compete because there is no better time to start.  
-            </p>
-            <p className="lead text-muted" style={{marginRight: 250}}>
-            Testimonial: “I was able to get more done this weekend than I have in the last three months” - E.J. Yizhou
-            </p>
-            <p className="text-primary display-3" style ={{fontSize: 25}}>
-            Boston Trip
-            </p>
-            <p className="lead text-muted" style={{marginLeft: 250}}>
-            Take a trip into Boston to check out the inner workings of incredible startups and established companies alike. We travel as a group to explore incredible businesses and discover how they accomplished their goals. This is a tremendous way to expand your network, make some close friends, and see where your hard work can take you.
-            </p>
-            <p className="text-primary display-3" style ={{fontSize: 25}}>
-            Five College Entrepreneurship Club Mixer
-            </p>
-            <p className="lead text-muted" style={{marginRight: 250}}>
-            UMass is a part of the Five College Consortium (Amherst College, Hampshire College, Mount Holyoke College, Smith College, and UMass Amherst) which all have terrific entrepreneurship clubs. Once per semester, we get together for networking, pitching practice, competitions, and more. 
-            </p>
-            <p className="text-primary display-3" style ={{fontSize: 25}}>
-            UMass Network Entrepreneurs (UNE)
-            </p>
-            <p className="lead text-muted" style={{marginLeft: 250}}>
-            The UMass Network of Entrepreneurs is a support, accountability, and problem solving group designed for ventures who are ready to progress to the next level. Using the collective intelligence of the ecosystem, this mastermind team has exclusive access to prestigious entrepreneurs who act as mentors and guides with the goal of advising the next wave of entrepreneurs. 
-            </p>
-            <p className="text-primary display-3" style ={{fontSize: 25}}>
-            And More To Come!
-            </p>
-            <p className="lead text-muted" style={{marginRight: 250}}>
-            We are always thinking of new ways to bring entrepreneurship onto campus.
-            </p>
-          </Col>
-        </Row>
-      </Container>
+            <Row style={{ justifyContent: "center", alignItems: "center" }}>
+              <Col lg>
+                <img
+                  alt="..."
+                  className="squared-circle img-center img-fluid shadow shadow-lg--hover"
+                  src={require("assets/img/theme/promo-1.png")}
+                  style={{ width: "300px", borderRadius: "2.5em" }}
+                />
+              </Col>
+              <Col lg>
+                <p className="lead text-muted text-center" style={{fontSize: 20}}>
+                Our meetings are our way of forming a strong community of tenacious learners and doers. 
+                We bring in prestigious speakers, troubleshoot ideas, network, learn, and have a lot of fun. 
+                Join us every Tuesday at 6pm!
+                </p>
+              </Col>
+            </Row>
+          </Container>
+          <Container className="section">
+            <h2 className="mb-3 text-center">
+              <span className="text-primary display-3">ULaunch</span>
+            </h2>
+            <Row style={{ justifyContent: "center", alignItems: "center" }}>
+              <Col lg>
+                <p className="lead text-muted text-center" style={{fontSize: 20}}>
+                Starting a business is hard… or is it? 
+                Join us and see how easy it can be to launch a venture in just one weekend. ULaunch is a 2-day event in which individuals form teams, build a business, and compete for $1,000 in funding. 
+                We host speakers, workshops, mentors, and some ambitious individuals just like you. 
+                No experience necessary! Come with an idea or just the will to compete because there is no better time to start.  
+                <p style={{fontSize: 20}}>Testimonial: “I was able to get more done this weekend than I have in the last three months” - E.J. Yizhou</p>
+                </p>
+              </Col>
+              <Col lg>
+                <img
+                  alt="..."
+                  className="squared-circle img-center img-fluid shadow shadow-lg--hover"
+                  src={require("assets/img/theme/promo-1.png")}
+                  style={{ width: "300px", borderRadius: "2.5em" }}
+                />
+              </Col>
+            </Row>
+          </Container>
+          <Container className="section">
+            <h2 className="mb-3 text-center">
+              <span className="text-primary display-3">Boston Trip</span>
+            </h2>
+            <Row style={{ justifyContent: "center", alignItems: "center" }}>
+              <Col lg>
+                <img
+                  alt="..."
+                  className="squared-circle img-center img-fluid shadow shadow-lg--hover"
+                  src={require("assets/img/theme/promo-1.png")}
+                  style={{ width: "300px", borderRadius: "2.5em" }}
+                />
+              </Col>
+              <Col lg>
+                <p className="lead text-muted text-center" style={{fontSize: 20}}>
+                Take a trip into Boston to check out the inner workings of incredible startups and established companies alike. 
+                We travel as a group to explore incredible businesses and discover how they accomplished their goals. 
+                This is a tremendous way to expand your network, make some close friends, and see where your hard work can take you.
+                </p>
+              </Col>
+            </Row>
+          </Container>
+          <Container className="section">
+            <h2 className="mb-3 text-center">
+              <span className="text-primary display-3">Five College Entrepreneurship Club Mixer</span>
+            </h2>
+            <Row style={{ justifyContent: "center", alignItems: "center" }}>
+              <Col lg>
+                <p className="lead text-muted text-center" style={{fontSize: 20}}>
+                UMass is a part of the Five College Consortium (Amherst College, Hampshire College, Mount Holyoke College, Smith College, and UMass Amherst) which all have terrific entrepreneurship clubs. 
+                Once per semester, we get together for networking, pitching practice, competitions, and more. 
+                </p>
+              </Col>
+              <Col lg>
+                <img
+                  alt="..."
+                  className="squared-circle img-center img-fluid shadow shadow-lg--hover"
+                  src={require("assets/img/theme/promo-1.png")}
+                  style={{ width: "300px", borderRadius: "2.5em" }}
+                />
+              </Col>
+            </Row>
+          </Container>
+          <Container className="section">
+            <h2 className="mb-3 text-center">
+              <span className="text-primary display-3">UMass Network Entrepreneurs (UNE)</span>
+            </h2>
+            <Row style={{ justifyContent: "center", alignItems: "center" }}>
+              <Col lg>
+                <img
+                  alt="..."
+                  className="squared-circle img-center img-fluid shadow shadow-lg--hover"
+                  src={require("assets/img/theme/promo-1.png")}
+                  style={{ width: "300px", borderRadius: "2.5em" }}
+                />
+              </Col>
+              <Col lg>
+                <p className="lead text-muted text-center" style={{fontSize: 20}}>
+                The UMass Network of Entrepreneurs is a support, accountability, and problem solving group designed for ventures who are ready to progress to the next level. 
+                Using the collective intelligence of the ecosystem, this mastermind team has exclusive access to prestigious entrepreneurs who act as mentors and guides with the goal of advising the next wave of entrepreneurs. 
+                </p>
+              </Col>
+            </Row>
+          </Container>
+          <Container className="section">
+            <h2 className="mb-3 text-center">
+              <span className="text-primary display-3">And More To Come...</span>
+            </h2>
+            <Row style={{ justifyContent: "center", alignItems: "center" }}>
+              <Col lg>
+                <p className="lead text-muted text-center" style={{fontSize: 20}}>
+                We are always thinking of new ways to bring entrepreneurship onto campus.
+                </p>
+              </Col>
+              <Col lg>
+                <img
+                  alt="..."
+                  className="squared-circle img-center img-fluid shadow shadow-lg--hover"
+                  src={require("assets/img/theme/promo-1.png")}
+                  style={{ width: "300px", borderRadius: "2.5em" }}
+                />
+              </Col>
+            </Row>
+          </Container>
+
         </main>
         <MainFooter />
       </>
