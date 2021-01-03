@@ -27,28 +27,16 @@ import BaseTemplate from "views/examples/BaseTemplate.js";
 import Landing from "views/Landing.js";
 import About from "views/About.js";
 import ProgramsEvents from "views/examples/ProgramsEvents";
-
+import Calendar from "views/Calendar.js";
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/" exact render={(props) => <Landing {...props} />} />
-      <Route
-        path="/base-template"
-        exact
-        render={(props) => <BaseTemplate {...props} />}
-      />
-
-      <Route
-        path="/programs-events"
-        exact
-        render={(props) => <ProgramsEvents {...props} />}
-      />
-      <Route
-        path="/about"
-        exact
-        render={(props) => <About {...props} />}
-      />
+      <Route path="/base-template" exact render={(props) => <BaseTemplate {...props} />} />
+      <Route path="/programs-events" exact render={(props) => <ProgramsEvents {...props} />} />
+      <Route path="/calendar" exact render={(props) => <Calendar {...props} />} />
+      <Route path="/about" exact render={(props) => <About {...props} />} />
       <Redirect to="/" />
     </Switch>
   </BrowserRouter>,

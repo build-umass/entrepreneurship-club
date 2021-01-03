@@ -64,17 +64,10 @@ class MainNavbar extends React.Component {
     return (
       <>
         <header className="header-global">
-          <Navbar
-            className="navbar-main navbar-transparent navbar-light headroom"
-            expand="lg"
-            id="navbar-main"
-          >
+          <Navbar className="navbar-main navbar-transparent navbar-light headroom" expand="lg" id="navbar-main">
             <Container>
               <NavbarBrand className="mr-lg-2" to="/" tag={Link}>
-                <img
-                  alt="..."
-                  src={require("assets/img/brand/entrepreneurship-logo-shadow.png")}
-                />
+                <img alt="..." src={require("assets/img/brand/entrepreneurship-logo-shadow.png")} />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
@@ -90,10 +83,7 @@ class MainNavbar extends React.Component {
                   <Row>
                     <Col className="collapse-brand" xs="8">
                       <Link to="/">
-                        <img
-                          alt="..."
-                          src={require("assets/img/brand/entrepreneurship-logo-shadow.png")}
-                        />
+                        <img alt="..." src={require("assets/img/brand/entrepreneurship-logo-shadow.png")} />
                       </Link>
                     </Col>
                     <Col className="collapse-close" xs="4">
@@ -121,18 +111,23 @@ class MainNavbar extends React.Component {
                   </UncontrolledDropdown>
 
                   <UncontrolledDropdown nav>
-                    <DropdownToggle nav to = "/about" tag= {Link}>
+                    <DropdownToggle nav to="/about" tag={Link}>
                       <i className="ni ni-collection d-lg-none mr-1" />
                       <span className="nav-link-inner--text">About</span>
                     </DropdownToggle>
                   </UncontrolledDropdown>
                   <UncontrolledDropdown nav>
-                    <DropdownToggle nav to = "/programs-events" tag= {Link}>
+                    <DropdownToggle nav to="/programs-events" tag={Link}>
                       <i className="ni ni-collection d-lg-none mr-1" />
                       <span className="nav-link-inner--text">Programs</span>
                     </DropdownToggle>
                   </UncontrolledDropdown>
-                  
+                  <UncontrolledDropdown nav>
+                    <DropdownToggle nav to="/calendar" tag={Link}>
+                      <i className="ni ni-collection d-lg-none mr-1" />
+                      <span className="nav-link-inner--text">Calendar</span>
+                    </DropdownToggle>
+                  </UncontrolledDropdown>
                 </Nav>
                 <Nav className="align-items-lg-center ml-lg-auto" navbar>
                   <NavItem>
@@ -143,9 +138,7 @@ class MainNavbar extends React.Component {
                       target="_blank"
                     >
                       <i className="fa fa-facebook-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Facebook
-                      </span>
+                      <span className="nav-link-inner--text d-lg-none ml-2">Facebook</span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip333589074">
                       Like us on Facebook
@@ -159,9 +152,7 @@ class MainNavbar extends React.Component {
                       target="_blank"
                     >
                       <i className="fa fa-instagram" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Instagram
-                      </span>
+                      <span className="nav-link-inner--text d-lg-none ml-2">Instagram</span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip356693867">
                       Follow us on Instagram
@@ -175,9 +166,7 @@ class MainNavbar extends React.Component {
                       target="_blank"
                     >
                       <i className="fa fa-linkedin-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        LinkedIn
-                      </span>
+                      <span className="nav-link-inner--text d-lg-none ml-2">LinkedIn</span>
                     </NavLink>
                     <UncontrolledTooltip delay={0} target="tooltip184698705">
                       Follow us on LinkedIn
